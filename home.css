@@ -1,0 +1,50 @@
+body{
+    
+
+}
+
+
+.house {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(194, 236, 115);
+    position: relative;
+    top: 200px;
+    left: 200px;
+  }
+  
+.roof {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 80px solid rgb(142, 85, 233);
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .chimney {
+    z-index: 0;
+    width: 30px;
+    height: 60px;
+    background-color: rgb(129, 103, 72);;
+    position: absolute;
+    top: -70px;
+    left: 140px;
+  }
+  
+  .window {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 210, 85);
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+    border: 3px solid rgb(142, 85, 233);
+  }
+  
